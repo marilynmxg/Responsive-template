@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/styles.css">
+         <link rel="stylesheet" href="css/my-styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Gideon+Roman&family=Kumbh+Sans:wght@100..900&family=Lustria&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quando&display=swap" rel="stylesheet">
+        <script src="js/java.js"></script>
+    </head>
+    <body>
+       
+        <div>
+            <header class="w3-container w3-purple">  <!--w3-container adds 16 pixels of padding 
+                around each element; w3-green makes the background green -->
+                <h1>Marilyn Gayosso - Portfolio</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+                <button class="btn" onclick="filterSelection('place')"> Place</button>
+                <button class="btn" onclick="filterSelection('people')"> People</button>
+              </div>
+              
+              <!-- Portfolio Gallery Grid -->
+              <div class="row">
+                <div class="column nature">
+                  <div class="content">
+                    <img src="assets/lilaflower.jpg" alt="Flower lila color" style="width:100%">
+                    <h4>Hyacinthus orientalis "Blue Jacket" in Brooklyn Botanical Garden</h4>
+                    <p>Shallow depth of field technique</p>
+
+                  </div>
+                </div>
+                <div class="column nature">
+                  <div class="place">
+                    <img src="assets/tinyflowers.jpg" alt="Cherry flowers" style="width:100%">
+                    <h4>Flowering Cherry "Kojo-No-Mai"</h4>
+                    <p>Shallow depth of field technique</p>
+                  </div>
+                </div>
+                <div class="column nature">
+                  <div class="content">
+                    <img src="assets/magentaflower.jpg" alt="Magnolia" style="width:100%">
+                    <h4>Pink Piramide Magnolia</h4>
+                    <p>Shallow depth of field technique</p>
+                  </div>
+                </div>
+              
+                <div class="column place">
+                  <div class="content">
+                    <img src="assets/shirt.jpg" alt="Shirt Pattern" style="width:100%">
+                    <h4>Shirt with watercolor design</h4>
+                    <p>Close up shot</p>
+                  </div>
+                </div>
+                <div class="column place">
+                  <div class="content">
+                    <img src="assets/girl.jpg" alt="Little girl hugging" style="width:100%">
+                    <h4>Little girl excited at the M&M's store</h4>
+                    <p>Medium shot</p>
+                  </div>
+                </div>
+                <div class="column place">
+                  <div class="content">
+                    <img src="assets/advertisement.jpg" alt="Big screen" style="width:100%">
+                    <h4>Big screen outside</h4>
+                    <p>Low angle shot</p>
+                  </div>
+                </div>
+              
+                <div class="column people">
+                  <div class="content">
+                    <img src="assets/guy.jpg" alt="Guy showing his tongue" style="width:100%">
+                    <h4>Rule of thirds</h4>
+                   
+                  </div>
+                </div>
+                <div class="column people">
+                  <div class="content">
+                    <img src="assets/table.jpg" alt="People at a table" style="width:100%">
+                    <h4>Oblique angle</h4>
+                    
+                  </div>
+                </div>
+                <div class="column people">
+                  <div class="content">
+                    <img src="assets/tracing.jpg" alt="Guy tracing" style="width:100%">
+                    <h4>Rule of thirds</h4>
+                   
+                  </div>
+                </div>
+                </div>
+        </div>
+      <!-- End Grid-->
+      
+      
+           
+                
+
+            <footer>
+                <p>&copy; Copyright 2024</p>
+            </footer>
+        </div>
+	</body>
+</html>
